@@ -12,7 +12,7 @@ server.get('/todos/:id', function(request, response){
 });
 
 server.post('/todos', function(request, response){
-  reponse.send('POST todos');
+  response.send('POST todos');
 });
 
 server.put('/todos/:id', function(request, response){
@@ -20,7 +20,7 @@ server.put('/todos/:id', function(request, response){
 });
 
 server.delete('/todos/:id', function(request, response){
-  reponse.send('DELETE todos :id');
+  response.send('DELETE todos :id');
 });
 
 server.listen(port, function(){
