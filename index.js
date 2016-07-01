@@ -5,5 +5,5 @@ var port = process.env.PORT || 8080;
 
 
 server.listen(port, function(){
-  console.log("Now listening", +port);
+  console.log("Now listening on port:", port);
 });
