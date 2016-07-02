@@ -15,10 +15,16 @@ db.defaults({todos: []})
   .value(); //runs the prevous set of commands
 
 server.get('/todos', function(request, response){
-  response.send('GET todos');
+  var todos = db.get('todos')
+                .value();
+  response.send(todos);
 });
 
 server.get('/todos/:id', function(request, response){
+  const todo = todos
+    .find({ id: req.parm.id })
+    .value()
+
   response.send('GET todos :id');
 });
 
