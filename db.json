@@ -1,9 +1,3 @@
 {
-  "todos": [
-    {
-      "id": "fe018c3e-04ba-49fe-85ef-955498403711",
-      "description": "work",
-      "isComplete": false
-    }
-  ]
+  "todos": []
 }
