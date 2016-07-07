@@ -1,14 +1,14 @@
 {
   "todos": [
     {
-      "id": "d50335d7-2b78-4f4b-b66f-6b78aeef6350",
+      "id": "2e4288e4-9abc-4ca0-9d41-9e9a465db6ce",
       "description": "less things",
-      "isComplete": "true"
+      "isComplete": false
     },
     {
-      "id": "babb1fd1-6bf8-48ca-b34a-bf245c8ca9e3",
+      "id": "3d12f127-ad7e-4daa-bc3d-ea9e981064a5",
       "description": "more things",
-      "isComplete": false
+      "isComplete": true
     },
     {
       "id": "57b36095-02df-459a-b29e-7f64e518d1c9",
