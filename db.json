@@ -13,7 +13,12 @@
     {
       "id": "57b36095-02df-459a-b29e-7f64e518d1c9",
       "description": "take out the trash",
-      "isComplete": "true"
+      "isComplete": true
+    },
+    {
+      "id": "e9c92084-3acc-47a2-9cea-5e450feb1ada",
+      "description": "testing stuff",
+      "isComplete": false
     }
   ]
 }
