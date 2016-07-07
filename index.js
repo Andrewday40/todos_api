@@ -7,11 +7,15 @@ var server = express();
 var port = process.env.PORT || 8080;
 var db = lowdb('db.json');
 
+//import my model
+var Todo = require('./models/todo.js');
+var testTodo = new Todo('some stuff');
+console.log(testTodo);
+
 server.use(bodyParser.json());
 server.use(bodyParser.urlencoded({extended: true}));
 
-// Database initialization
-db.defaults({todos: []})
+db.defaults({todos: []}) // Database initialization
   .value(); //runs the prevous set of commands
 
 server.get('/todos', function(request, response){
