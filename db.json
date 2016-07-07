@@ -9,6 +9,11 @@
       "id": "babb1fd1-6bf8-48ca-b34a-bf245c8ca9e3",
       "description": "more things",
       "isComplete": false
+    },
+    {
+      "id": "57b36095-02df-459a-b29e-7f64e518d1c9",
+      "description": "take out the trash",
+      "isComplete": "true"
     }
   ]
 }
